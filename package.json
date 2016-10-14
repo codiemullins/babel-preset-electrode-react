@@ -1,0 +1,13 @@
+{
+  "name": "babel-preset-electrode-react",
+  "version": "1.0.0",
+  "author": "Codie Mullins <codie.mullins@outlook.com>",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-plugin-i18n-id-hashing": "^2.1.0",
+    "babel-plugin-react-intl": "^2.1.2",
+  }
+}
