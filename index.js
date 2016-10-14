@@ -6,10 +6,10 @@ module.exports = {
   ],
   plugins: [
     require('babel-plugin-transform-object-rest-spread'),
-    [require('babel-plugin-i18n-id-hashing'), {
+    [require('babel-plugin-i18n-id-hashing').default, {
       "varsContainingMessages": ["defaultMessages", "translations"]
     }],
-    [required('babel-plugin-react-intl'), {
+    [require('babel-plugin-react-intl').default, {
       "messagesDir": "./tmp/messages/",
       "enforceDescriptions": true
     }]
@@ -17,7 +17,7 @@ module.exports = {
   env: {
     production: {
       plugins: [
-        require('babel-plugin-transform-react-constant-elements')
+        require('babel-plugin-transform-react-constant-elements').default
       ]
     }
   }
