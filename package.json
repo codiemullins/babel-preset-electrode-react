@@ -8,6 +8,6 @@
     "babel-preset-react": "^6.3.13",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
     "babel-plugin-i18n-id-hashing": "^2.1.0",
-    "babel-plugin-react-intl": "^2.1.2",
+    "babel-plugin-react-intl": "^2.1.2"
   }
 }
